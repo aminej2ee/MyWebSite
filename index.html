@@ -1,13 +1,321 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="utf-8">
-  <title>formation git</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    .aside-left {
+      width: 20%;
+      float: left;
+      padding: 5px;
+      margin: 10px;
+      height: 5000px;
+      
+    }
+
+    .aside-right {
+      width: 20%;
+      float: right;
+      padding: 5px;
+      margin: 10px;
+      height: 5000px;
+    }
+
+
+    .imgCaption {
+      border-bottom: 1px solid lightgray;
+      /* Add a light line under the figcaption */
+      padding-bottom: 10px;
+      /* Add some padding to separate the line from the text */
+      padding-bottom: 10px;
+      /* Add some padding to separate the line from the text */
+
+    }
+
+    .textPara {
+      font-size: 20px
+    }
+
+    .styled-item {
+    font-weight: bold; /* Make text bold */
+    color: green; /* Set text color to green */
+    text-decoration: underline; /* Add underline */
+    line-height: 1.8; /* Add more space between lines */
+    font-size: 20px
+}
+
+  .Sign{
+    background-color: #9ffacf;
+    display: flex;
+            flex-direction: column;
+            align-items: center;
+  }
+  .textSign{
+    text-align: center;
+
+  }
+  .email{
+    text-align: center;
+
+  }
+
+  #email {
+            width: 80%; /* Set the width of the input relative to the width of the div */
+            max-width: 300px; /* Optional: Set maximum width to prevent the input from becoming too wide */
+            height: 35px;
+            border: none; /* Remove border */
+            outline: none; /* Remove outline when focused */
+        }
+
+        .suscribe {
+            width: 80%; /* Set the width of the input relative to the width of the div */
+            max-width: 300px; /* Optional: Set maximum width to prevent the input from becoming too wide */
+            height: 35px;
+            border: none; /* Remove border */
+            outline: none; /* Remove outline when focused */
+            margin-bottom: 5%;
+        }
+  
+  </style>
 </head>
+
 <body>
-	ddddddddddddddddd
-			
+
+  <header>
+    <h1> David Beckham’s Investments: How to ‘Invest it Like Beckham’ <h1>
+
+  </header>
+  <div class="aside-left">
+    <aside>
+      <hr>
+      <div style="font-weight:bold; ">
+        By <span style="color: green; "> Kirsteen Mackay </span>
+      </div>
+      <div>
+        September 1st, 2023
+      </div>
+      <hr>
+
+      <div style="display: flex;">
+        Share:
+
+        <a target="_blank" rel="noopener noreferrer" aria-label="Share on Facebook"
+          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.valuethemarkets.com%2Fanalysis%2Fdavid-beckham-s-investments-how-to-invest-it-like-beckham%3Fbypass%3Dcache">
+          <svg alt="facebook Icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="20"
+            height="20" style="margin-left: 12px;">
+            <path
+              d="M15 0a15 15 0 1015 15A15 15 0 0015 0zm3.75 10h-1.687c-.673 0-.812.276-.812.972V12.5h2.5l-.262 2.5H16.25v8.75H12.5V15H10v-2.5h2.5V9.615c0-2.211 1.164-3.365 3.786-3.365h2.464z"
+              fill="currentColor"></path>
+          </svg>
+
+        </a>
+
+
+        <a target="_blank" rel="noopener noreferrer" aria-label="Share on Linkedin"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.valuethemarkets.com%2Fanalysis%2Fdavid-beckham-s-investments-how-to-invest-it-like-beckham%3Fbypass%3Dcache">
+          <svg alt="linkedin Icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="20"
+            height="20">
+            <path
+              d="M15 0a15 15 0 1015 15A15 15 0 0015 0zm-2.5 20H10v-7.5h2.5zm-1.25-8.614A1.386 1.386 0 1112.625 10a1.381 1.381 0 01-1.375 1.386zm10 8.614h-2.5v-3.576c0-2.351-2.5-2.153-2.5 0V20h-2.5v-7.5h2.5v1.366c1.09-2.02 5-2.17 5 1.935z"
+              fill="currentColor"></path>
+          </svg>
+        </a>
+
+      </div>
+      <br>
+      <br>
+      <div>
+        IN THIS ARTICLE
+      </div>
+      <hr>
+
+
+
+      <div style="font-weight:bold; ">
+        OTC: GULDF
+      </div>
+      <div>
+        GUILD ESPORTS PLC
+      </div>
+      <div style="font-weight:bold; ">
+        0.01 USD
+      </div>
+      <div style="display: flex; color: red;font-weight:bold;">
+        <svg width="20" height="20">
+          <path fill="currentColor" d="M7 10l5 5 5-5z"></path>
+        </svg>
+        0 -25%
+      </div>
+
+    </aside>
+  </div>
+
+
+
+  <div class="aside-right">
+    <aside>
+      <br><br><br><br><br><br>
+      <div class="Sign">
+         <h1 class="textSign">Sign up for Investing Intel Newsletter</h1> 
+          <input   type="email" id="email" name="email" placeholder="Enter your email here">
+          
+          <p><input   type="checkbox" id="subscribe" name="subscribe">I agree to the 
+            Privacy Policy</p>
+
+            <button class="suscribe" >SUSCRIBE NOW</button>
+
+      </div>
+
+      <figure>
+        <img class="w-full"
+        src="https://files.valuethemarkets.com/containers/assets/qy003--banners--set-07-300x250-px-1701075879.jpg/090dd03576b0d51ce6b3c1dbcc1c0474.jpg"
+          alt="Football-on-field-money-david-beckham-investments." style="max-width: 100%; height: auto;">
+
+      </figure>
+    </aside>
+  </div>
+
+
+  <main>
+    <section>
+
+      <h1> David Beckham is a successful international soccer player, brand ambassador and alternative investor. Read on
+        to discover how he makes money.
+      </h1>
+      <figure>
+        <img class="w-full"
+          src="https://files.valuethemarkets.com/containers/assets/David-Beckham-Investments-2022-min.jpeg/a8dc1f37e7de13794e98a367ed5b9ecb.jpeg"
+          alt="Football-on-field-money-david-beckham-investments." width="653" height="367">
+
+        <figcaption class="imgCaption">David Beckham's Investments are Multiple and Varied</figcaption>
+      </figure>
+      <div class="textPara"> David Beckham has made investments in several start-ups, properties, a production company,
+        football teams and an Esports training academy.</div>
+
+    </section>
+    <article>
+      <h1>Who is David Beckham?</h1>
+      <div class="textPara">
+        <b>Full name</b>: David Robert Joseph Beckham
+      </div>
+      <br><br>
+      <div class="textPara">
+        <b>Date of Birth</b>: 2 May 1975
+      </div> <br>
+      <dl>
+        <dt>
+          <div class="textPara">
+            <b>Net Worth:</b> Together with his famous wife Victoria, David Beckham is thought to have a net worth of
+            £450m. Reports indicate that around £370 million of this total is attributed to David Beckham's personal net
+            worth. This reflects their financial success as a celebrity couple, with David Beckham's career in sports
+            and
+            Victoria's in music and fashion contributing significantly to their wealth.
+          </div>
+        </dt>
+        <dd>
+          <div class="textPara">
+            <ul type="disc">
+
+              <li>Beckham enjoyed success as a midfielder and set piece specialist for Manchester United, Real Madrid
+                and the England national team.</li>
+              <li>Trophies won include the Premier League title, La Liga, Champions League, FA Cup, Spanish Super Cup
+                and MLS Cup.
+              </li>
+              <li>He was twice voted FIFA Player of the Year.
+              </li>
+              <li>Beckham became the highest-paid footballer in 2004.</li>
+              <li>He was captain of the England national team for 58 games between 2000 and 2006.</li>
+              <li>He was the first Englishman to play 100 matches in the UEFA Champions League.</li>
+              <li>After the 2006 FIFA World Cup, he continued to be selected for the national team until March 26, 2008.
+              </li>
+              <li>He retired from soccer in 2013.</li>
+            </ul>
+
+            <p>David Beckham has become exponentially wealthier since he retired from football. Yet, the game continues
+              to influence his investments and brand collaborations. He also aligns himself with companies and ideas
+              close to his heart.</p>
+          </div>
+        </dd>
+      </dl>
+
+      <h1>How does David Beckham make money?</h1>
+      <p class="textPara">Since retiring from professional soccer, Beckham has made money through various sources.
+        Soccer team ownership, automobiles, cannabis, Esports, Forex, Fashion and Property. These show he’s a
+        diversified risk-taker involved in many money-spinning interests.</p>
+      <h1>How Much Did David Beckham invest in Inter Miami?</h1>
+      <p class="textPara">David Beckham is the current president and co-owner of Major League Soccer Club Inter Miami CF. He's also a
+      minority shareholder in Salford City Football Club in England.</p>
+
+      <p class="textPara">When Beckham joined Los Angeles Galaxy as a player in 2007, he was awarded the right to a discounted MLS franchise
+      as part of his sign-on package. His involvement undoubtedly brought prestige to the brand and riches to his net
+      worth.</p>
+
+      <p class="textPara">In 2014, he exercised this right with the announcement of Inter Miami in 2014, for which he reportedly paid $25
+      million.</p>
+
+      <p class="textPara">He has since made several investments in the club. Exact figures are hard to come by. However, in February 2021,
+      Beckham invested a further $15.3m in the club.</p>
+
+      <p class="textPara">In September 2021, Beckham increased his ownership stake in Inter Miami when he and the Mas brothers finalized the
+      buyout of Marcelo Claure and Masayoshi Son. It’s not clear exactly how much Beckham invested at this time. But in
+      connection with the buyout announcement Ares Management was also added to the ownership group with an investment
+      of $150m.</p>
+
+      <p class="textPara"> With sporting icon Lionel Messi having joined the club in 2023, Inter Miami has seen its value skyrocket. Optus
+      Sport says the club is expected to soon be worth more than $1.5bn. This means a huge return on investment for
+      Beckham.</p>
+      <h1>Cellular Goods (LON: CBX)</h1>
+      <p class="textPara"> Cannabinoid company Cellular Goods (LON: CBX) sells health and beauty consumer products based on biosynthetic cannabinoids. The company was founded in August 2018 and went public via IPO in February 2021.</p>
+      <p class="textPara"> As of the end of 2021, David Beckham was Cellular Goods' third-biggest shareholder, owning a 4.95% stake in the company. In March 2022 Authentic Brands took a majority stake in David Beckham's DB Ventures, to co-own and manage his global brand. As of August 2023, Authentic Brands had a 2.5% stake in Cellular Goods.</p>
+      <p class="textPara">At IPO, Cellular Goods raised gross proceeds of £13m from a conditional placing and an intermediary offer 13 times oversubscribed. It was the first pure-play biosynthetic cannabinoids consumer products company to list on the London Stock Exchange. </p>
+
+      <h1>Cellular Goods (LON: CBX)</h1>
+      <p class="textPara">Many of David Beckham’s investments and deals are made through his investment company DB Ventures. This is run by Beckham and his best friend, former football agent David Gardner.
+
+      </p>
+      <p class="textPara"> DB Ventures incorporates Beckham’s Haig Club whisky brand, and his endorsement deals with Tudor watches, campaigns with Pepsi, Samsung and Adidas, an agreement with fitness franchisor F45 Training, his investment in Cellular Goods and Lunaz, and his deal to be the face of the Qatar World Cup, 2022.
+
+      </p>
+      <p class="textPara">According to media reports, Authentic Brands Group acquired a 55% majority stake in DB Ventures Ltd from Beckham Brand Holdings Ltd for £200m ($270.9m). In January 2021, sources close to David Beckham told the Mail on Sunday that he's selling the stake to pay off debt, allow some partners to exit, and free up capital, and said that the valuation for the company is "unexpectedly high."
+
+      </p>
+      <p class="textPara">Authentic Brands represents Shaquille O’Neal and owns the license rights to international icons like Marilyn Monroe and Muhammad Ali.
+
+      </p>
+      <p class="textPara"> Rumors of an Authentic Brands IPO have circulated for some time, but the company has withdrawn plans in the past. Instead, it agreed to sell a stake in the business to private equity firms CVC Capital Partners and HPS Investment Partners. This valued Authentic Brands at $12.7bn, including debt.
+
+      </p>
+      <p class="textPara"> Authentic Brands founder and CEO Jamie Salter says an IPO could still be coming in the next couple of years.
+
+      </p>
+
+      <h1>What you should read next:
+      </h1>
+      <ul>
+
+        <li class="styled-item">How to Find Investment Opportunities</li>
+        <li class="styled-item">High-End Investing: A Look at Luxury Goods Stocks</li>
+        <li class="styled-item">Coty's Paris Listing Opens Door to Luxury Goods Sector</li>
+        <li class="styled-item">How Counterfeiting Affects the Luxury Goods Sector</li>
+        <li class="styled-item">Investing in the Digital Revolution in Entertainment</li>
+      </ul>
+
+      <iframe
+	width="800"
+	height="400"
+	src="https://www.youtube.com/watch?v=C0hr_5LCurI"
+></iframe>
+    </article>
+
+  </main>
+
+  <footer>
+
+
+  </footer>
+
 </body>
+
 </html>
