@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
     .aside-left {
       width: 20%;
       float: left;
@@ -13,6 +14,12 @@
       margin: 10px;
       height: 5000px;
       
+    }
+
+    li {
+
+        list-style: none;
+        display: inline-block;
     }
 
     .aside-right {
@@ -77,6 +84,10 @@
             outline: none; /* Remove outline when focused */
             margin-bottom: 5%;
         }
+
+   *{
+    font-family: 'Roboto', sans-serif;
+   }
   
   </style>
 </head>
@@ -84,7 +95,18 @@
 <body>
 
   <header>
-    <h1> David Beckham’s Investments: How to ‘Invest it Like Beckham’ <h1>
+   
+        <navbar >
+
+           <ul>
+                <li> <a href="/">NEWS</a> </li>
+                <li> ANALYSI </li>
+                <li> INVESTING IDEAS</li>
+                <li> REPORTS</li>
+
+           </ul>
+           <h1> David Beckham’s Investments: How to ‘Invest it Like Beckham’ <h1>
+        </navbar>
 
   </header>
   <div class="aside-left">
@@ -319,3 +341,5 @@
 </body>
 
 </html>
+
+
