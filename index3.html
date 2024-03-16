@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mouse Down and Up Events Example</title>
+<style>
+  #tasks p, #tasks button {
+    display: inline; /* Display elements inline */
+  }
+</style>
+</head>
+<body>
+
+   <div id="tasks">  
+    
+   </div>
+
+    
+   <div >  
+    <input type="text" name="first name" placeholder="Write your task" />  <button id="myButton" >Add task</button>
+
+   </div>
+
+
+   <script>
+    var id = 1;
+    var button = document.getElementById("myButton");
+    var tasksDiv = document.getElementById("tasks");
+    button.addEventListener("click", function() {
+        var newDiv = document.createElement("div");
+        var taskInput = document.querySelector('input[name="first name"]');
+        var taskText = taskInput.value;
+        id++;
+        var newParagraph = document.createElement("p");
+        newParagraph.textContent = taskText;
+        newDiv.appendChild(newParagraph);
+        taskInput.value = ""
+
+        var deleteButton = document.createElement("button");
+       
+        deleteButton.innerText = "delete"
+        newDiv.setAttribute('id', id);
+        newDiv.appendChild(deleteButton);
+
+        tasksDiv.appendChild(newDiv);
+
+        deleteButton.addEventListener("click", function() {
+            newDiv.remove();
+        });
+
+    });
+    </script>
+</body>
+</html>
